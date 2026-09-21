@@ -108,13 +108,4 @@ that the assertions detect meaningful regressions, not just that the test runs.
 
 ## 5. AI Use Statement
 
-I used OpenAI Codex to explain the assignment, inspect the repository, draft the
-missing-job test and this documentation, execute verification commands, and
-prepare the Git/Canvas submission materials. I previously ran the classroom
-startup, case-flow and baseline test commands and shared their outputs. For
-this submission, Codex ran the five-test regression suite, lint, the live-stack
-smoke test, and temporary regression probes. Those checks verified the status
-and message assertions and that the existing flow still worked. Production API
-behavior was left unchanged, and broader cleanup of the unusually named starter
-test file was deferred. I do not claim that the AI-assisted code or documentation
-was written independently or that I personally reran the agent's final checks.
+I used OpenAI Codex for step-by-step guidance on the lab and assistance with the bounded change. I ran the project locally, checked the health endpoints, created and traced a case through the API, worker and AI service, inspected database records and logs, and ran the initial tests. Codex helped draft the missing-job regression test and documentation, ran the final verification checks, and assisted with Git submission steps. The final checks confirmed that the test detects incorrect status codes and error messages and that the existing workflow still passes.
